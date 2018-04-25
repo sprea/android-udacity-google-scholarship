@@ -12,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        displayForTeamA(1);
-        displayForTeamB(1);
+        displayForTeamA(0);
+        displayForTeamB(0);
     }
 
     /**
